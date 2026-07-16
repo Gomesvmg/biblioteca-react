@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Input = styled.input`
+    text-align: center
     border: 1px solid #FFF;
     background: transparent;
     border: 1px solid #FFF;
@@ -11,9 +12,14 @@ const Input = styled.input`
     font-size: 16px;
     margin-bottom: 10px;
 
+    input::placeholder {
+        text-align: center;
+    }
+
     &::placeholder {
         color: #FFF;
         font-size: 16px;
+        text-align: center;
     }
 `
 
